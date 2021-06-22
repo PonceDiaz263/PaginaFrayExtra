@@ -1,0 +1,129 @@
+body{
+	background: #0A0A2A;
+	margin: 0;
+}
+.caja1{
+	width: 100%;
+	
+}
+.caja1 p{
+	margin-left: 34%;
+	font-size: 45px;
+	font: white;
+	align-content: center;
+	margin-top: -75px;
+}
+header nav{
+	background:#B45F04;
+	overflow:hidden;
+	
+}
+header nav ul{
+	list-style:none;
+}
+header nav ul li{
+	float:left;
+	margin-right:60px;
+}
+header nav ul li a{
+	padding:0px 15px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	background:;
+	margin-bottom:22px;
+}
+header nav ul li a:hover{
+	background:#9F81F7;
+}
+.slider{
+	margin-top:20px;
+	width:100%;
+	overflow:hidden;
+	height:700px;
+	
+}
+.slider ul{
+	padding:0;
+	display:flex;
+	width:800%;
+	animation:cambio 10s infinite alternate;
+	height:400px;
+}
+.slider li{
+	list-style:none;
+	width:100%;
+	height:350px;
+
+}
+.slider img{
+	width:100%;
+	height: 700px;
+	
+}
+@keyframes cambio{
+	0%{margin-left:0;}
+	9%{margin-left:0;}
+	12.5%{margin-left:-100%;}
+	21.5%{margin-left:-100%;}
+	25%{margin-left:-200%;}
+	34%{margin-left:-200%;}
+	37.5%{margin-left:-300%;}
+	46.5%{margin-left:-300%;}
+	50%{margin-left:-400%;}	
+	59%{margin-left:-400%;}
+	62.5%{margin-left:-500%;}
+	71.5%{margin-left:-500%;}
+	75%{margin-left:-600%;}
+	84%{margin-left:-600%;}
+	87.5%{margin-left:-700%;}
+}
+.cajacostos{
+	width: 100%;
+	height: 400px;
+}
+.cajasecundaria{
+	width: 35%;
+	background: skyblue;
+	float: left;
+	margin-left: 10%;
+	height: 400px;
+
+}
+.cajasecundaria p{
+	margin-left: 10px;
+}
+.cajapreparatoria{
+	width: 35%;
+	background: skyblue;
+	float: left;
+	margin-left: 10%;
+	height: 400px;
+}
+.cajapreparatoria p{
+	margin-left: 10px;
+}
+.cajafrailes{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: #0000FF;
+	height: 470px;
+}
+.cajafrailes p{
+	margin-left: 10px;
+	
+}
+footer{
+	background: #B45F04;
+	height: 40px;
+	text-align: center;
+}
+footer img{
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+header video{
+	width: 100%;
+}
